@@ -22,6 +22,7 @@ public class AppTest {
 	public void login() {
 		driver.findElement(By.id("email")).sendKeys("*******");
 		driver.findElement(By.id("pass")).sendKeys("******");
+		driver.findElement(By.id("u_0_2")).click();
 	}
 	
 }
