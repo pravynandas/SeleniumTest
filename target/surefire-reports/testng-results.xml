@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" WebDriver Suite" duration-ms="10384" started-at="2018-01-30T06:22:02Z" finished-at="2018-01-30T06:22:12Z">
+    <groups>
+    </groups>
+    <test name="Testing" duration-ms="10384" started-at="2018-01-30T06:22:02Z" finished-at="2018-01-30T06:22:12Z">
+      <class name="com.qalabs.SeleniumTest.AppTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qalabs.SeleniumTest.AppTest@5594a1b5]" name="beforeTest" is-config="true" duration-ms="7600" started-at="2018-01-30T01:22:02Z" finished-at="2018-01-30T01:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="url()[pri:0, instance:com.qalabs.SeleniumTest.AppTest@5594a1b5]" name="url" duration-ms="2187" started-at="2018-01-30T01:22:09Z" description="facebook open page" finished-at="2018-01-30T01:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.qalabs.SeleniumTest.AppTest@5594a1b5]" name="login" duration-ms="570" started-at="2018-01-30T01:22:11Z" description="Login page" depends-on-methods="com.qalabs.SeleniumTest.AppTest.url" finished-at="2018-01-30T01:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.qalabs.SeleniumTest.AppTest -->
+    </test> <!-- Testing -->
+  </suite> <!--  WebDriver Suite -->
+</testng-results>
