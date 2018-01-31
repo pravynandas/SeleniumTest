@@ -8,4 +8,10 @@
 		</classes>
 	</test>
 
+	<test name="SmokeTest">
+		<classes>
+			<class name="com.qalabs.SeleniumTest.SmokeTest" />
+		</classes>
+	</test>
+
 </suite>
