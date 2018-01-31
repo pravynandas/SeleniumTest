@@ -5,11 +5,6 @@
 	<test name="Testing">
 		<classes>
 			<class name="com.qalabs.SeleniumTest.AppTest" />
-		</classes>
-	</test>
-
-	<test name="SmokeTest">
-		<classes>
 			<class name="com.qalabs.SeleniumTest.SmokeTest" />
 		</classes>
 	</test>
