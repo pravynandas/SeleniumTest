@@ -5,7 +5,7 @@
 	<test name="Testing">
 		<classes>
 			<class name="com.qalabs.SeleniumTest.AppTest" />
-			<class name="com.qalabs.SeleniumTest.SmokeTest" />
+			<class name="com.qalabs.SeleniumTest.NewTest" />
 		</classes>
 	</test>
 

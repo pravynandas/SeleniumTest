@@ -8,6 +8,16 @@ import org.testng.annotations.*;
 public class AppTest {
 	public WebDriver driver;
 	
+	@BeforeSuite
+	public void testBeforeSuite() {
+		System.out.println("testBeforeSuite()");
+	}
+
+	@AfterSuite
+	public void testAfterSuite() {
+		System.out.println("testAfterSuite()");
+	}
+	
 	@BeforeTest
 	public void beforeTest() {
 		driver = new FirefoxDriver();
